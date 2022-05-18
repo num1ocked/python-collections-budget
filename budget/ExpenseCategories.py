@@ -15,7 +15,7 @@ def main():
                 b.issubset(a)):
                 print("Sets are NOT equal by subset test")
         timeit.timeit(stmt = "pass",
-                    set up =
+                    setup =
                     '''
                     ''',
                     number = 100000,
