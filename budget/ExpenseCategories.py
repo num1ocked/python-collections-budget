@@ -15,5 +15,7 @@ def main():
                 b.issubset(a)):
                 print("Sets are NOT equal by subset test")
 
+    timeit.timeit()
+
 if __name__ == "__main__":
     main()
