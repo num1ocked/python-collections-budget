@@ -34,6 +34,7 @@ def main():
                     globals=globals()))
 
     fig, ax = plt.subplots()
+    labels = ['Necessary', 'Food', 'Unnecessarsy']
 
 if __name__ == "__main__":
     main()
