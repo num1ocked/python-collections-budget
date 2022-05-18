@@ -14,8 +14,7 @@ class BudgetList():
         return self
 
     def __next__(self):
-        try:
-            return __next__(self.iter_o)
+        pass
 
     def append(self, item):
         if (self.sum_expenses+item<self.budget):
