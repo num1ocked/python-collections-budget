@@ -42,6 +42,7 @@ def main():
         print(entry)
 
     fig, ax = plt.subplots()
+    labels = ['Expenses', 'Overages', 'Budget']
 
     if (__name__ == "__main__"):
         main()
