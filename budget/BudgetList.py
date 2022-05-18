@@ -1,2 +1,6 @@
 class BudgetList():
-    pass
+    self.budget = budget
+    self.sum_expenses = 0
+    self.expenses = []
+    self.sum_overages = 0
+    self.overages = []
