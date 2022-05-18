@@ -41,5 +41,5 @@ class Expenses():
 
             return [necessary_expenses, food_expenses, unnecessary_expenses]
 
-    def  categorize_set_comprehension(self)
+    def  categorize_set_comprehension(self):
         pass
