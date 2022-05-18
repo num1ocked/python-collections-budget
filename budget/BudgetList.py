@@ -1,5 +1,5 @@
 class BudgetList():
-    (self, budget):
+    def __init__(self, budget):
     self.budget = budget
     self.sum_expenses = 0
     self.expenses = []
