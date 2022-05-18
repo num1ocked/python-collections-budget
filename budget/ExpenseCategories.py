@@ -14,7 +14,7 @@ def main():
         if not (a.issubset(b) and
                 b.issubset(a)):
                 print("Sets are NOT equal by subset test")
-        timeit.timeit(stmt = "expenses.categorize_for_loop()",
+        print(timeit.timeit(stmt = "expenses.categorize_for_loop()",
                     setup =
                     '''
                     from . import Expense
@@ -22,7 +22,7 @@ def main():
                     expenses.read_expenses('data/spending_data.csv')
                     ''',
                     number = 100000,
-                    globals=globals())
+                    globals=globals()))
 
 if __name__ == "__main__":
     main()
