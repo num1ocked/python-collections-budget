@@ -1,5 +1,6 @@
 from . import Expense
 import matplotlib.pyplot as plt
+import timeit
 
 def main():
     expenses = Expense.Expenses()
