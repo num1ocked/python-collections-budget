@@ -47,4 +47,4 @@ class Expenses():
                             x.category='Auto and Gass' or
                             x.category='Classes' or
                             x.category='Utilities' or
-                            x.category='Mortgage' or
+                            x.category='Mortgage'
