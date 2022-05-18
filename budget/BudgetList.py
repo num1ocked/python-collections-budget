@@ -1,2 +1,1 @@
-class BudgetList():
-    pass
+class BudgetList(pass):
